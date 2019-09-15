@@ -13,3 +13,11 @@ header nav {
     color: #fff;
     font-style: PT serif;
 }
+
+header nav a {
+    color: #fff;
+}
+
+header nav a:hover {
+    color: #ffa500;
+}
