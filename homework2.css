@@ -4,6 +4,12 @@ header {
 
 header h1 {
     color: #fff;
-    font: PT serif;
+    font-style: PT serif;
     size: 40px;
+}
+
+header nav {
+    background-color: #668844;
+    color: #fff;
+    font-style: PT serif;
 }
