@@ -1,0 +1,9 @@
+header {
+    background-color: #004333;
+}
+
+header h1 {
+    color: #fff;
+    font: PT serif;
+    size: 40px;
+}
