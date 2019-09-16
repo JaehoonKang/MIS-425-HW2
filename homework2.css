@@ -36,7 +36,11 @@ header nav a:hover {
 }
 
 main section h2 {
-    size: 18px;
+    font-size: 18px;
+}
+
+figure .background img {
+    
 }
 
 figure {
@@ -45,6 +49,7 @@ figure {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+    background-color: #ececbd;
 }
 
 figure p {
@@ -61,6 +66,7 @@ figure p {
     width: 50%;
 }
 
+
 figcaption {
     display: block;
     margin-left: auto;
@@ -75,8 +81,12 @@ figcaption {
     font-size: 18px;
 }
 
-li {
+li a{
     color: #668844;
+}
+
+li a:hover {
+    color: #ffa500;
 }
 
 #employees {
@@ -97,6 +107,5 @@ footer nav {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    
 }
 
