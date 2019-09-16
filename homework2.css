@@ -5,13 +5,15 @@ header {
 header h1 {
     color: #fff;
     font-style: PT serif;
-    size: 40px;
+    font-size: 40px;
+    padding: 10px 0 0 10px;
 }
 
 header nav {
     background-color: #668844;
     color: #fff;
     font-style: PT serif;
+    padding: 10px 5px 10px 5px;
 }
 
 header nav a {
@@ -21,3 +23,10 @@ header nav a {
 header nav a:hover {
     color: #ffa500;
 }
+
+
+main section h2 {
+    size: 18px;
+    font-style: PT serif;
+}
+
