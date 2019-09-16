@@ -75,6 +75,10 @@ figcaption {
     font-size: 18px;
 }
 
+li {
+    color: #668844;
+}
+
 #employees {
     background-color: #668844;
     color: #fff;
@@ -82,7 +86,17 @@ figcaption {
     font-size: 18px;
 }
 
+
+footer {
+    background-color: #004333;
+}
+
 footer nav {
     padding: 5px 0 5px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
 }
 
