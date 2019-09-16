@@ -39,8 +39,32 @@ main section h2 {
     size: 18px;
 }
 
-div .box {
-    border: 3px;
-    border-color: #668844;
+figure {
+    border: 3px solid #668844;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+figure p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.profile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+figcaption {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
