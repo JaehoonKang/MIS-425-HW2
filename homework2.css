@@ -4,7 +4,7 @@ header {
 
 header h1 {
     color: #fff;
-    font-style: PT serif;
+    font-family: 'PT Serif', serif;
     font-size: 40px;
     padding: 10px 0 0 10px;
 }
@@ -12,7 +12,7 @@ header h1 {
 header nav {
     background-color: #668844;
     color: #fff;
-    font-style: PT serif;
+    font-family: 'PT Serif', serif;
     padding: 10px 5px 10px 5px;
 }
 
@@ -27,57 +27,37 @@ header nav a:hover {
 
 #profile {
     font-size: 36px;
-    font-style: PT serif;
-    padding: 10px 0 0 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    font-family: 'PT Serif', serif;
+    text-align: center;
 }
 
 main section h2 {
     font-size: 18px;
 }
 
-figure .background img {
-    
-}
-
 figure {
     border: 3px solid #668844;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
+    text-align: center;
     background-color: #ececbd;
 }
 
-figure p {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+figure div {
+    background-image: url("images/header-background.png");
+    text-align: center;
+    color: #fff;
 }
-
-.profile {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
 
 figcaption {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    text-align: center;
 }
 
+.section1 {
+    margin: 20px 40px 20px 40px;
+}
 #documents {
     background-color: #668844;
     color:#fff;
-    font-style: PT serif;
+    font-family: 'PT Serif', serif;
     font-size: 18px;
 }
 
@@ -92,7 +72,7 @@ li a:hover {
 #employees {
     background-color: #668844;
     color: #fff;
-    font-style: PT serif;
+    font-family: 'PT Serif', serif;
     font-size: 18px;
 }
 
@@ -101,11 +81,10 @@ footer {
     background-color: #004333;
 }
 
-footer nav {
+footer p {
+    color:#fff;
     padding: 5px 0 5px 0;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    text-align: center;
+    font-style: none;
 }
 
