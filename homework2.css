@@ -68,3 +68,21 @@ figcaption {
     width: 50%;
 }
 
+#documents {
+    background-color: #668844;
+    color:#fff;
+    font-style: PT serif;
+    font-size: 18px;
+}
+
+#employees {
+    background-color: #668844;
+    color: #fff;
+    font-style: PT serif;
+    font-size: 18px;
+}
+
+footer nav {
+    padding: 5px 0 5px 0;
+}
+
